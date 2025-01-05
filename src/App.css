@@ -1,0 +1,8 @@
+@font-face {
+    font-family: cera_pro;
+    src: url(../src/assets/fonts/ceraProReguler.ttf);
+  }
+  
+body{
+    font-family: cera_pro !important;
+  }

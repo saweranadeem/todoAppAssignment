@@ -126,7 +126,7 @@ const Signup = () => {
               </FormGroup>
             </div>
             <div>
-            <button className="text-white border-0 rounded w-100 bgButton btnHeight">Sign Up</button>
+              <button className="text-white border-0 rounded w-100 bgButton btnHeight">Sign Up</button>
             </div>
             <div className="text-left">
               <p className="fs-5 mt-5">
