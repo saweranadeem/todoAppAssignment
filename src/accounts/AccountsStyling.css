@@ -2,13 +2,46 @@ body,
 html {
   margin: 0;
   padding: 0;
-  height: 100%;
+  box-sizing: border-box;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(../assets/fonts/ceraProReguler.ttf);
+}
+.containerUnits {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f3f7;
+}
+.ContainerImage {
+  object-fit: cover;
+}
+.logo{
+  width: 40%;
+}
+h1{
+  color: #2e2b61;
+  font-size: 38px;
+}
+label{
+  color:#9597a6;
+  font-size: 20px;
 
-.form-image{
  
- width: 41vw;
-
-
 }
-
+.bgButton{
+  background-color: #c2d3f5;
+  font-size: 20px;
+}
+.btnHeight{
+  height: 55px;
+}
+.padding{
+  padding:90px;
+}
+.spanText{
+  color: #6796ef;
+}
+a{
+  color:#9597a6;
+}
