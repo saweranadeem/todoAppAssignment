@@ -148,6 +148,15 @@ const Signup = () => {
           <img src={formFilling} className="w-100 h-100 ContainerImage" />
         </div>
       </div>
+      
+      {/* <div className="row">
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">1</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">2</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">3</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">4</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">5</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">6</div>
+      </div> */}
     </>
   );
 };
