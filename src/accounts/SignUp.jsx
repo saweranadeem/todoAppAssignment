@@ -13,12 +13,12 @@ import {
 const Signup = () => {
   return (
     <>
-      <div className="d-flex containerUnits">
+      <div className="d-flex containerUnits container">
         <div className="w-50 h-100 padding">
           <div className="d-flex flex-column gap-3">
             <img src={logo} className="logo" />
 
-            <h1>Good News! We're here Let's Create your account.</h1>
+            <h1 className="sign_up_deading ">Good News! We're here Let's Create your account.</h1>
             <div>
               <label
                 htmlFor="EmailAdddress"
@@ -139,6 +139,15 @@ const Signup = () => {
           <img src={formFilling} className="w-100 h-100 ContainerImage" />
         </div>
       </div>
+      
+      {/* <div className="row">
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">1</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">2</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">3</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">4</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">5</div>
+        <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">6</div>
+      </div> */}
     </>
   );
 };

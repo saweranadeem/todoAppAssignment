@@ -6,6 +6,10 @@
     font-family: cera_pro_medium;
     src: url(../src/assets/fonts/Cer_Pro_Medium.ttf);
   }
+  @font-face {
+    font-family: cera_pro_bold;
+    src: url(../src/assets/fonts/Cer_Pro_Bold.ttf);
+  }
 body{
     font-family: cera_pro !important;
 }
