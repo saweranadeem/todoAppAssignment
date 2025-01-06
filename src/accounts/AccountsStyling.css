@@ -13,32 +13,55 @@ html {
 .ContainerImage {
   object-fit: cover;
 }
-.logo{
-  width: 40%;
+.logo {
+  width: 230px;
+  height: 59px;
+  margin-bottom: 9px;
 }
-h1{
+h1 {
   color: #2e2b61;
-  font-size: 38px;
+  font-size: 43px;
+  font-family: cera_pro_medium;
+  margin-bottom: 14px;
 }
-label{
-  color:#9597a6;
-  font-size: 20px;
+label {
+  color: #9597a6;
+  font-size: 20.3px;
+}
 
- 
-}
-.bgButton{
+.bgButton {
   background-color: #c2d3f5;
-  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 21.17px;
+  padding: 9px 0px;
+  width: calc(100% + 22px);
+  margin-left: -10px;
+  margin-top: -4px;
 }
-.btnHeight{
-  height: 55px;
+.checkbox {
+  margin-top: -4px;
 }
-.padding{
-  padding:90px;
+.padding {
+  padding: 100px;
 }
-.spanText{
+
+.spanText {
   color: #6796ef;
+  margin-left: 20px;
 }
-a{
-  color:#9597a6;
+a {
+  color: #9597a6;
+}
+.paraStyle {
+  position: absolute;
+  font-size: 20.3px;
+
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.checkboxText {
+  font-size: 20.3px;
 }

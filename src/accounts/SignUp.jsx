@@ -7,7 +7,6 @@ import {
   Checkbox,
   FormGroup,
   FormControlLabel,
-
 } from "@mui/material";
 
 const Signup = () => {
@@ -18,7 +17,7 @@ const Signup = () => {
           <div className="d-flex flex-column gap-3">
             <img src={logo} className="logo" />
 
-            <h1>Good News! We're here Let's Create your account.</h1>
+            <h1>Good news! We are here Let’s create your account.</h1>
             <div>
               <label
                 htmlFor="EmailAdddress"
@@ -28,6 +27,10 @@ const Signup = () => {
                 <TextField
                   placeholder="abcdef@gmail.com"
                   sx={{
+                    "& .MuiInputBase-input::placeholder": {
+                      color: "#adb5bd",
+                    },
+
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": {
                         borderColor: "transparent",
@@ -48,7 +51,7 @@ const Signup = () => {
               </label>
             </div>
 
-            <div className="d-flex gap-5  ">
+            <div className="d-flex gap-4  ">
               <label
                 htmlFor="Password"
                 className="d-flex gap-2 flex-column w-50"
@@ -56,6 +59,9 @@ const Signup = () => {
                 Password
                 <TextField
                   sx={{
+                    "& .MuiInputBase-input::placeholder": {
+                      color: "#adb5bd",
+                    },
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": {
                         borderColor: "transparent",
@@ -82,6 +88,9 @@ const Signup = () => {
                 Confirm password
                 <TextField
                   sx={{
+                    "& .MuiInputBase-input::placeholder": {
+                      color: "#adb5bd",
+                    },
                     "& .MuiOutlinedInput-root": {
                       "& fieldset": {
                         borderColor: "transparent",
@@ -103,12 +112,12 @@ const Signup = () => {
               </label>
             </div>
 
-            <div>
+            <div className="checkbox">
               <FormGroup>
                 <FormControlLabel
                   control={<Checkbox />}
                   label={
-                    <>
+                    <span className="checkboxText">
                       I have read the{" "}
                       <a href="/privacy-policy" target="_blank">
                         {" "}
@@ -120,17 +129,17 @@ const Signup = () => {
                         Terms of Services
                       </a>
                       .
-                    </>
+                    </span>
                   }
                 />
               </FormGroup>
             </div>
             <div>
-              <button className="text-white border-0 rounded w-100 bgButton btnHeight">Sign Up</button>
+              <button className="bgButton">Sign Up</button>
             </div>
             <div className="text-left">
-              <p className="fs-5 mt-5">
-                Already a member?<span className="spanText ms-3 ">Login</span>
+              <p className="paraStyle">
+                Already a member?<span className="spanText  ">Log In</span>
               </p>
             </div>
           </div>
