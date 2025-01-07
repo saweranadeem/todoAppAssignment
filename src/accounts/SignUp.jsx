@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../assets/logo.svg";
 import formFilling from "../assets/formik.svg";
 import "./AccountsStyling.css";
+import { useNavigate } from "react-router-dom";
+
 import {
   TextField,
   Checkbox,
@@ -10,6 +12,10 @@ import {
 } from "@mui/material";
 
 const Signup = () => {
+  const signupRouter = useNavigate();
+  const goToLogin = () => {
+    signupRouter("/login");
+  };
   return (
     <>
       <div className="d-flex containerUnits">
@@ -139,7 +145,10 @@ const Signup = () => {
             </div>
             <div className="text-left">
               <p className="paraStyle">
-                Already a member?<span className="spanText  ">Log In</span>
+                Already a member?
+                <span className="spanText " onClick={goToLogin}>
+                  Log In
+                </span>
               </p>
             </div>
           </div>
@@ -148,7 +157,7 @@ const Signup = () => {
           <img src={formFilling} className="w-100 h-100 ContainerImage" />
         </div>
       </div>
-      
+
       {/* <div className="row">
         <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">1</div>
         <div className="col-sm-12 col-md-3 col-lg-2 col-xxl-2 border">2</div>

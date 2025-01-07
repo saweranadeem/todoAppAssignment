@@ -4,9 +4,16 @@ import formFilling from "../assets/formik.svg";
 import "./AccountsStyling.css";
 import { TextField } from "@mui/material";
 import { Facebook, Twitter, Google } from "@mui/icons-material";
-
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const loginRouter = useNavigate();
+  const goToSignup = () => {
+    loginRouter("/signup");
+  };
+  const gotoForgot = () => {
+    loginRouter("/forgotPassword");
+  };
   return (
     <>
       <div className="d-flex containerUnits">
@@ -84,23 +91,26 @@ const Login = () => {
           </div>
           <div className="d-flex justify-content-between loginPara">
             <div>or login with:</div>
-            <div>Forgot Password?</div>
+            <div className="cursor" onClick={gotoForgot}>
+              Forgot Password?
+            </div>
           </div>
           <div className="login-icon">
             <div className="icon-circle">
-              <Facebook  sx={{ fontSize: "28px" }} />
+              <Facebook sx={{ fontSize: "28px" }} />
             </div>
             <div className="icon-circle">
-              <Twitter  sx={{ fontSize: "28px" }} />
+              <Twitter sx={{ fontSize: "28px" }} />
             </div>
             <div className="icon-circle">
-            <Google sx={{ fontSize: "28px" }} />
-
+              <Google sx={{ fontSize: "28px" }} />
             </div>
           </div>
           <p className="paraStyle">
             Don't have an Account?
-            <span className="spanText  ">Sign Up</span>
+            <span className="spanText " onClick={goToSignup}>
+              Sign Up
+            </span>
           </p>
         </div>
         <div className="w-50 h-100">

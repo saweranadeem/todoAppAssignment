@@ -53,6 +53,9 @@ label {
   color: #6796ef;
   margin-left: 20px;
 }
+:hover .spanText {
+  cursor: pointer;
+}
 a {
   color: #9597a6;
 }
@@ -96,7 +99,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.forgotpara{
+.forgotpara {
   color: #9597a6;
   margin-top: -24px;
+}
+.cursor {
+  cursor: pointer;
 }
