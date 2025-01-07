@@ -91,7 +91,7 @@ const Login = () => {
           </div>
           <div className="d-flex justify-content-between loginPara">
             <div>or login with:</div>
-            <div className="cursor" onClick={gotoForgot}>
+            <div className="cursor-pointer" onClick={gotoForgot}>
               Forgot Password?
             </div>
           </div>
