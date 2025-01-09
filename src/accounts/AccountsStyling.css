@@ -56,7 +56,8 @@ label {
 :hover .spanText {
   cursor: pointer;
 }
-a {
+
+.checkbox .checkboxText a {
   color: #9597a6;
 }
 .paraStyle {

@@ -1,0 +1,44 @@
+.table .notesIcon {
+  color: rgb(103, 150, 239);
+}
+.table .deleteIcon {
+  color: #e84c49;
+}
+.table .tableHeader th {
+  padding: 48px 15px;
+  color: #b4bccc;
+  background-color: #f2f4f9;
+  font-size: 19.54px;
+  border-bottom: none;
+  text-align: center;
+}
+.tableContainter {
+  width: 80%;
+}
+.table td {
+  border-bottom: 0;
+  padding: 48px 30px;
+  font-size: 19.54px;
+  color: #2e2b61;
+  font-family: Cer_pro_medium;
+  text-align: center;
+}
+.myFlows {
+  margin-left: 100px;
+}
+.myFlows .myFlowsContainer {
+  width: 233px;
+  height: 239px;
+  background-color: rgb(103, 150, 239);
+  border-radius: 10px;
+}
+.myFlowsContainer {
+  gap: 25px;
+}
+.myFlows .myFlowsContainer .myFlowsAdd {
+  font-size: 70px;
+}
+
+.myFlows .myFlowsContainer .myFlowsPara {
+  font-size: 20.3px;
+}

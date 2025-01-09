@@ -14,6 +14,11 @@ const Login = () => {
   const gotoForgot = () => {
     loginRouter("/forgotPassword");
   };
+  const isLogin=()=>{
+    loginRouter("/home");
+    localStorage.setItem("isLogedIn" , true)
+  }
+
   return (
     <>
       <div className="d-flex containerUnits">
@@ -87,7 +92,7 @@ const Login = () => {
                 />
               </label>
             </div>
-            <button className="bgButton loginButton">Login</button>
+            <button className="bgButton loginButton" onClick={isLogin}>Login</button>
           </div>
           <div className="d-flex justify-content-between loginPara">
             <div>or login with:</div>
