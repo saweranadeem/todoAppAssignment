@@ -1,7 +1,7 @@
-.homeContainer{
-    padding-top: 50px;
+.homeContainer {
+  padding-top: 50px;
 }
-.homeContainer .homeBody{
+.homeContainer .homeBody {
   padding-left: 80px;
 }
 .table .notesIcon {
@@ -22,7 +22,7 @@
   width: 80%;
   margin-top: 50px;
 }
-.tableDiv{
+.tableDiv {
   width: 80vw;
   margin-top: 45px;
 }
@@ -41,7 +41,7 @@
 .myFlows .myFlowsContainer {
   width: 233px;
   height: 239px;
-  margin-top: 30px;
+  margin-top: 60px;
   background-color: rgb(103, 150, 239);
   border-radius: 10px;
 }
@@ -54,4 +54,21 @@
 
 .myFlows .myFlowsContainer .myFlowsPara {
   font-size: 20.3px;
+}
+.createTodoContainer {
+  margin-top: 45px;
+  width: 80vw;
+}
+.createTodoContainer .createTodoForm {
+  margin-top: 50px;
+  width: 65%;
+}
+#exampleFormControlTextarea1::placeholder {
+  color: #d7dce1;
+}
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
 }

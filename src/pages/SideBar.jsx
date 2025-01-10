@@ -16,9 +16,15 @@ const SideBar = () => {
           <li>
             <Link to="myFlows">My Flows</Link>
           </li>
-          <li>Other Flows</li>
-          <li>Play4Flow</li>
-          <li>Settings</li>
+          <li>
+            <Link to="createTodo">Other Flows</Link>
+          </li>
+          <li>
+            <Link to="deleteTodo">Play4Flow</Link>
+          </li>
+          <li>
+            <Link to="updateTodo">Settings</Link>
+          </li>
         </ul>
       </div>
     </div>
