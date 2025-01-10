@@ -4,8 +4,8 @@ import headerLogo from "../assets/logo.svg";
 import { Search, NotificationsNone, Menu } from "@mui/icons-material";
 const Header = () => {
   return (
-    <div className="d-flex navigation ">
-      <div className="headerLogo">
+    <div className="d-flex justify-content-center navigation ">
+      <div className="headerLogo ">
         <img src={headerLogo} />
       </div>
 

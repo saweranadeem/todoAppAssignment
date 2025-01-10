@@ -3,7 +3,7 @@ import { EditNote, DeleteOutline } from "@mui/icons-material";
 import "./ComponentStyling.css";
 const Todo = () => {
   return (
-    <div>
+    <div className="tableDiv">
       <h2 className="tableHeading">Your to do's</h2>
       <table class="table tableContainter">
         <thead class="tableHeader">

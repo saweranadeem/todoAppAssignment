@@ -1,9 +1,9 @@
 .sideBar {
   height: 548px;
   width: 293.6px;
-
   padding: 0 14px;
-  margin-left: 50px;
+
+  margin-top: 18px;
 }
 .sideBar .sidebarButton {
   width: 187.8px;
@@ -27,13 +27,18 @@
   padding-left: 10px;
   font-family: cera_pro_medium;
 }
+.sideBar .sidebarLists ul li a {
+  text-decoration: none;
+  color: #2e2b61;
+}
+
 .navigation {
   width: 100vw;
+  
 }
 .header {
   width: 1530px;
   height: 70px;
-  background-color: #d6dadf;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 12px;
@@ -41,6 +46,7 @@
 .headerLogo {
   width: 192px;
   height: 52px;
+  margin-top: 15px;
 }
 .header .headerInput input {
   border-radius: 5px;

@@ -4,17 +4,18 @@ import Header from "../pages/Header";
 import { Outlet } from "react-router-dom";
 const Home = () => {
   return (
-    <div>
+    <div className="homeContainer" >
+      <div>
+        <Header />
+      </div>
+      <div className="d-flex homeBody">
         <div>
-          <Header />
+          <SideBar />
         </div>
-<div className="d-flex">
-  <div><SideBar/></div>
-  <div className="flex-1">
-  <Outlet/>
-  </div>
-</div>      
-     
+        <div className="flex-1">
+          <Outlet />
+        </div>
+      </div>
     </div>
   );
 };

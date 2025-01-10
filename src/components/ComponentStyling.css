@@ -1,3 +1,9 @@
+.homeContainer{
+    padding-top: 50px;
+}
+.homeContainer .homeBody{
+  padding-left: 80px;
+}
 .table .notesIcon {
   color: rgb(103, 150, 239);
 }
@@ -12,8 +18,13 @@
   border-bottom: none;
   text-align: center;
 }
-.tableContainter {
+.tableDiv .tableContainter {
   width: 80%;
+  margin-top: 50px;
+}
+.tableDiv{
+  width: 80vw;
+  margin-top: 45px;
 }
 .table td {
   border-bottom: 0;
@@ -25,10 +36,12 @@
 }
 .myFlows {
   margin-left: 100px;
+  margin-top: 40px;
 }
 .myFlows .myFlowsContainer {
   width: 233px;
   height: 239px;
+  margin-top: 30px;
   background-color: rgb(103, 150, 239);
   border-radius: 10px;
 }

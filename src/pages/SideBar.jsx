@@ -1,7 +1,8 @@
 import React from "react";
 import "./PageStyling.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 const SideBar = () => {
+  const location = useLocation();
   return (
     <div className="sideBar">
       <div>
