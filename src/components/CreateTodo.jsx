@@ -108,6 +108,7 @@ const CreateTodo = () => {
           </div>
         </div>
       </div>
+      <button type="Submit" className="sidebarButton">Submit</button>
     </div>
   );
 };

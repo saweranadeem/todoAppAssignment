@@ -31,7 +31,7 @@ label {
 }
 
 .bgButton {
-  background-color: #c2d3f5;
+  background-color: rgb(103, 150, 239);
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -40,6 +40,10 @@ label {
   width: calc(100% + 22px);
   margin-left: -10px;
   margin-top: -4px;
+}
+.bgButton:disabled {
+  background-color: #6796ef59;
+  cursor: not-allowed;
 }
 
 .checkbox {
@@ -106,4 +110,8 @@ label {
 }
 .cursor {
   cursor: pointer;
+}
+.errorMsgs {
+  color: red;
+  font-size: 15px;
 }

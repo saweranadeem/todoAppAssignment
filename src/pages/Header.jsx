@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 import headerLogo from "../assets/logo.svg";
+import { AuthContext } from "../contextApi/AuthContext";
 
 import { Search, NotificationsNone, Menu } from "@mui/icons-material";
 const Header = () => {
+  const { logOut } = useContext(AuthContext);
+  const [showLogout, setShowLogout] = useState(false);
+  const handleMenu = () => {
+    setShowLogout(!showLogout);
+  };
+  const handleLogout = () => {
+    logOut();
+  };
   return (
     <div className="d-flex justify-content-center navigation ">
       <div className="headerLogo ">
@@ -32,7 +41,15 @@ const Header = () => {
               <NotificationsNone />
             </div>
             <div className="icons ">
-              <Menu />
+              <Menu onClick={handleMenu} />
+              {showLogout && (
+                <button
+                  className="bg-white rounded text-black position-absolute logoutButton"
+                  onClick={handleLogout}
+                >
+                  Log Out
+                </button>
+              )}
             </div>
           </div>
         </div>

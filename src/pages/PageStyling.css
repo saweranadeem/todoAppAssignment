@@ -34,7 +34,6 @@
 
 .navigation {
   width: 100vw;
-  
 }
 .header {
   width: 1530px;
@@ -79,6 +78,15 @@
   border-radius: 3px;
   margin-left: 20px;
   cursor: pointer;
+}
+.header .headerIcons .icons .logoutButton{
+  border: none;
+  top:125px;
+  right: 270px;
+  width: 146px;
+  height: 48px;
+  text-align: start;
+  padding-left: 14px;
 }
 .tableHeading {
   font-family: cera_pro_medium;

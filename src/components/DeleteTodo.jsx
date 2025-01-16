@@ -38,15 +38,14 @@ function DeleteTodo() {
             maxWidth: "100%",
             position: "absolute",
             top: 50,
-      
           },
         }}
       >
         <DialogTitle
           sx={{
             borderBottom: "1px solid rgb(210, 213, 219)",
-            fontSize:"20px",
-            color:"#212529",
+            fontSize: "20px",
+            color: "#212529",
           }}
         >
           {"Are You Sure?"}
@@ -54,7 +53,7 @@ function DeleteTodo() {
         <DialogContent
           sx={{
             borderBottom: "1px solid rgb(210, 213, 219)",
-        marginTop:"15px"
+            marginTop: "15px",
           }}
         >
           <DialogContentText id="alert-dialog-slide-description">
@@ -62,9 +61,9 @@ function DeleteTodo() {
           </DialogContentText>
         </DialogContent>
         <DialogActions
-        sx={{
-            marginTop:"15px"
-        }}
+          sx={{
+            marginTop: "15px",
+          }}
         >
           <Button
             onClick={handleClose}

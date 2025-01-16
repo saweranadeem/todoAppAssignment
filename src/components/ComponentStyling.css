@@ -19,7 +19,7 @@
   text-align: center;
 }
 .tableDiv .tableContainter {
-  width: 80%;
+  width: 90%;
   margin-top: 50px;
 }
 .tableDiv {
@@ -71,4 +71,14 @@
   box-shadow: none;
   border: none;
   outline: none;
+}
+.createTodoContainer .sidebarButton {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: rgb(103, 150, 239);
+  color: White;
+  font-size: 21.1px;
+  border-radius: 10px;
+  margin: 30px 0 48px 0;
 }
